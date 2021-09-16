@@ -1,4 +1,7 @@
 {
     "name": "David Wiles",
-    "car": "Ford Pinto"
+    "github": "04banshee",
+    "repo" : "https://github.com/04banshee/Exam_Dev.git", 
+    "app" : "https://exam-qual-dev.herokuapp.com/", 
+    "skills" : ["Development 1", "Web 2", "Linux 3"]
 }
