@@ -10,19 +10,21 @@
 </head>
 
 <body ng-app="hi-angular">
+    <a href="https://https://github.com/04banshee/Exam_Dev.git"target="_blank">Click here for the Github repro</a></br>
+    <a href="/file">Click here to write a file to Server</a>
     <div class="container-fluid" ng-controller="MainController">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <a href="">link to my repo</a>
-                <a href="/file">go here to see how you can write a file to the server</a>
+                
             </div>
         </div>
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h1 id="page-title">hi angular</h1>
+                <h1 id="page-title">Angular App Development </h1>
+                <label for="name">Enter name:</label>
                 <input ng-model="user.name">
-                <h3 id="user-greeting">and hi there, {{ user.name }}</h3>
-                <p id="user-car">A {{ user.car }}? Noice.</p>
+                <h3 id="user-greeting">hi there, {{ user.name }}</h3>
+                <p id="user-car">Do you drive a {{ user.car }}? Not a nice one.</p>
             </div>
         </div>
     </div>

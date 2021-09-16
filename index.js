@@ -7,7 +7,6 @@ const fs = require('fs');
 
 app.get('/', function(req, res) {
 
-    // res.send('<h3>Hello Node on Heroku</h3><a href="https://github.com/barrycumbie/my-super-cool-awesome-project-app-heroku-node-thing" target="_blank">See the code!</a>');
     res.sendFile('/angular.html', { root: __dirname });
 });
 
@@ -32,7 +31,7 @@ app.get('/file', function(req, res) {
         return res.end();
     });
 
-    fs.appendFile('demofile1.html', 'Hello content!', function(err) {
+    fs.appendFile('demofile1.html', ' And More content here!', function(err) {
         if (err) throw err;
         console.log('Saved!');
     });
@@ -40,6 +39,6 @@ app.get('/file', function(req, res) {
 
 });
 
-app.listen(process.env.PORT || 8888, function() {
-    console.log('Listening on port 8888');
+app.listen(process.env.PORT || 3000, function() {
+    console.log('Listening on port 3000');
 });
