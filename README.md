@@ -6,7 +6,7 @@
 
 **I want** to read from a json fiile. 
 
-**So That** the application is dynamic and interactive [like this one](https://https://exam-qual-dev.herokuapp.com/) to the end user.
+**So That** the application is dynamic and interactive [like this one](https://exam-qual-dev.herokuapp.com/) to the end user.
 
 ## Comments/Discussion
 #### AngularJs Information:
